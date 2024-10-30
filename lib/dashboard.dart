@@ -12,6 +12,8 @@ class Dashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: Colors.blue,
         title: Text('Dashboard'),
       ),  
       body: Center(
