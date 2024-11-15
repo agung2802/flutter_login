@@ -5,9 +5,12 @@ class Dashboard extends StatelessWidget {
 
   Dashboard({super.key, required this.username});
 
+  static const routeName = '/dashboard';
+
   final String username;
 
   @override
+
 
   Widget build(BuildContext context) {
     return Scaffold(
